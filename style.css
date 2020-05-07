@@ -1,0 +1,255 @@
+@font-face {
+  font-family: Chris;
+  src: url(GosmickSans.ttf);
+
+}
+#HomeBody{
+  background-image: url("MainBackground.jpg");
+  color: white;
+  font-family: 'Bitter', serif;
+
+}
+
+.navbargrid{
+  display: grid;
+  position: fixed;
+  width: 100%;
+  grid-template-columns: repeat(8,1fr);
+  grid-column-gap: 2vmin;
+  background-color: black;
+  top: 0px;
+  left:0px;
+
+}
+
+.bodygrid{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+}
+.CCMainBodyGrid{
+  font-family: sans-serif;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(8,1fr);
+  grid-column-gap: 2vmin;
+  top: 0px;
+  left:0px;
+}
+.CZMainBodyGrid{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+    align-content: center;
+
+
+}
+
+.content{
+  padding-top: 20px;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+}
+.oneXone{
+  grid-column-end: span 1;
+}
+.twoXone{
+  grid-column-end: span 2;
+}
+.threeXone{
+  grid-column-end: span 3;
+}
+.fourXone{
+  grid-column-end: span 4;
+}
+.fiveXone{
+  grid-column-end: span 5;
+}
+.sixXone{
+  grid-column-end: span 6;
+}
+.sevenXone{
+  grid-column-end: span 7;
+}
+.eightXone{
+  grid-column-end:span 8;
+}
+.nineXone{
+  grid-column-end:span 9;
+}
+.tenXone{
+  grid-column-end: span 10;
+}
+.elevenXone{
+  grid-column-end: span 11;
+}
+.tweleveXone{
+  grid-column-end: span 12;
+
+}
+.oneXtwo{
+  grid-column-end: span 1;
+  grid-row-end: span 2;
+
+}
+.sixXfour{
+  grid-column-end: span 6;
+  grid-row-end: span 4;
+}
+.twoXtwo{
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+.fourXthree{
+  grid-column-end: span 4;
+  grid-row-end: span 3;
+}
+
+.SoniMainimg{
+padding-left: 25vw;
+padding-top: 15vh;
+
+}
+.logo{
+  color:  white;
+}
+.navbar{
+  color: white;
+}
+#chrischan{
+  background-color:     #1a000d;
+
+}
+#charlieZ{
+  background-color: #1a000d;
+
+}
+.maximg{
+  width: 95%;
+  height: 50vh;
+}
+.maxwidth{
+  width: 95%;
+}
+  .c100{
+    width: 100%;
+    height: 50vh;
+  }
+.textcenter{
+  text-align: center;
+}
+#CCBody{
+  background-color: #66FFFF;
+}
+.fourrowimg{
+
+}
+.borderimg{
+  border: 10px double black;
+}
+h1{
+  font-size: 25px;
+}
+h4{
+  text-align: center;
+  color: blue;
+}
+.CCintro{
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+
+}
+.CCIntroContent{
+  text-align: center;
+
+}
+.ContentSonichu{
+  border: 6px solid black;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-flow: column wrap;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  font-family: Chris;
+}
+.sonichuabovecontent{
+  width: 30vh;
+  justify-content: center;
+  padding-left: 35%;
+  font-family: Chris;
+
+}
+.backbtnsonic{
+
+  position: fixed;
+}
+#runnigsonic{
+  width: 30px;
+  height: 30px;
+}
+.hpCZ{
+  width: 100%;
+  height: 50vh;
+}
+.boxreclogosize{
+  width: 80%;
+  height: 10vh;
+
+}
+.CZbanner{
+  background-color: #9F9F9F;
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  position: fixed;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+  padding-left: 0px;
+  padding-top: 0px;
+
+}
+.CZBannercontainer{
+  align-content: space-evenly;
+
+}
+
+#CZbody{
+    font-family: 'Libre Baskerville', serif;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.CZTitle{
+  font-size: 30px;
+  text-decoration: underline;
+
+}
+.wins{
+  background-color: green;
+
+}
+.loss{
+  background-color: red;
+
+}
+.tie{
+  background-color: blue;
+}
+.CZstats{
+  text-align: center;
+}
+.listnone{
+  font-size: 23px;
+  text-align:justify;
+  list-style-type: none;
+
+}
