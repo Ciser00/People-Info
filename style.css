@@ -6,8 +6,6 @@
 #HomeBody{
   background-image: url("MainBackground.jpg");
   color: white;
-  font-family: 'Bitter', serif;
-
 }
 
 .navbargrid{
@@ -45,6 +43,25 @@
     align-content: center;
 
 
+}
+.LTGMainBodyGrid{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+    align-content: center;
+
+}
+
+.LTGContentGrid{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+
+}
+.LTGBody{
+  background-image: url(LTGbg.jpg);
 }
 
 .content{
@@ -105,9 +122,36 @@
   grid-column-end: span 2;
   grid-row-end: span 2;
 }
+.threeXtwo{
+  grid-column-end: span 3;
+  grid-row-end: span 2;
+}
 .fourXthree{
   grid-column-end: span 4;
   grid-row-end: span 3;
+}
+.fourXtwo{
+  grid-column-end: span 4;
+  grid-row-end: span 3;
+
+}
+.xfourXtwo{
+  grid-column-end: span 4;
+  grid-row-end: span 2;
+}
+.fiveXtwo{
+  grid-column-end: span 5;
+  grid-row-end: span 2;
+}
+.sixXtwo{
+  grid-column-end: span 6;
+  grid-row-end: span 2;
+
+
+}
+.eightXtwo{
+  grid-column-end: span 8;
+  grid-row-end: span 2;
 }
 
 .SoniMainimg{
@@ -117,6 +161,9 @@ padding-top: 15vh;
 }
 .logo{
   color:  white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+
 }
 .navbar{
   color: white;
@@ -128,6 +175,20 @@ padding-top: 15vh;
 #charlieZ{
   background-color: #1a000d;
 
+}
+#LTGHome{
+  background-color: #1a000d;
+
+}
+.about{
+  color:  white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 20px;
+  text-align: center;
+
+}
+#about{
+  text-align: center;
 }
 .maximg{
   width: 95%;
@@ -252,4 +313,13 @@ h4{
   text-align:justify;
   list-style-type: none;
 
+}
+.topheaderLTG{
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+.LTGtxt{
+  color: white;
 }
